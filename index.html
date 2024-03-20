@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Pedido de Namoro</title>
+    <title>ILYSM</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,11 +13,19 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
+            height: 100%;
+            
         }
         
         h1 {
             color: #ff0080;
-            margin-top: 100px;
+            margin-top: 40px;
+            font-size: 36px;
+        }
+
+        h2 {
+            color: #ff0080;
+            margin-top: 90px;
             font-size: 36px;
         }
         
@@ -52,14 +60,30 @@
         
         .animacao {
             display: none;
-            margin-top: 50px;
+            margin-top: 40px;
             font-size: 24px;
             color: #ff0080;
             animation-name: pulsar;
             animation-duration: 2s;
             animation-iteration-count: infinite;
+            padding: 0;
         }
-        
+        img{
+            padding: 0;
+            display: block;
+            margin: 0 auto;
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: row;
+            padding-left: 50px;
+            margin-top: 600px;
+            color: #ff0080;
+            font-size: 20px;
+        }
         @keyframes pulsar {
             0% {
                 transform: scale(1);
@@ -140,16 +164,21 @@
 <body>
 
     <div class="pedido">
-        <h1>Rhayssa, quer namorar comigo?</h1>
+        <h2>Amor, eu poderia falar tanto sobre você, sobre nós, eu apenas sou imensamente grato por tê-la na minha vida. Sei que está ocupada com a faculdade, mas não queria que hoje passasse em branco, hoje faz 1 ano desde que nos falamos pela primeira vez, que trocamos o primeiro "Oi", por isso é um dia importante.</h2>
+        <h1> Rhayssa, quer namorar comigo? </h1>
     </div>
     <div class="botoes">
         <button id="sim" class="botao">Sim</button>
         <button id="nao" class="botao">Não</button>
     </div>
     <div id="animacao" class="animacao">
-        <div class="animationtext"> TE AMO AMOR 🎉</div>
+        <div class="animationtext"> PARABÉNS VOCÊ FEZ A ESCOLHA CERTA, TE AMO AMOR 🎉</div>
         <img src="https://i.ibb.co/gzjCkx6/removal-ai-82b7dc24-51fc-4bf0-bbbf-68dd53f512b4-ilovemyboyfie-cec6fa57-4bac-41a0-8959-f303b8364055.png" alt="removal-ai-82b7dc24-51fc-4bf0-bbbf-68dd53f512b4-ilovemyboyfie-cec6fa57-4bac-41a0-8959-f303b8364055" border="0" />
     </div>
+    <footer>
+        <p> Feito por Vinícíus Martins © </p>
+    </footer>
+    
     <script src="./play.js"></script>
 </body>
 
